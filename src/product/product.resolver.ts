@@ -1,6 +1,6 @@
-import { ProductPagination, ProductList } from './../types/product.pagination';
-import { ProductFilter } from './../types/product.filter';
-import { Product } from './../entities/product.entity';
+import { ProductPagination, ProductList } from '../types/product.pagination';
+import { ProductFilter } from '../types/product.filter';
+import { Product } from '../entities/product.entity';
 import { ProductService } from './product.service';
 import { Resolver, Query, Args, Mutation } from '@nestjs/graphql';
 import { ValidationPipe } from '@nestjs/common';

@@ -1,5 +1,5 @@
-import { ProductFilter } from './../types/product.filter';
-import { ProductList, ProductPagination } from './../types/product.pagination';
+import { ProductFilter } from '../types/product.filter';
+import { ProductList, ProductPagination } from '../types/product.pagination';
 import { Injectable } from '@nestjs/common';
 import { InjectEntityManager } from '@nestjs/typeorm';
 import { Repository, EntityManager, Like } from 'typeorm';
