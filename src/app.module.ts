@@ -10,7 +10,7 @@ import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '127.0.0.1',
+      host: 'host.docker.internal',
       port: 3306,
       username: 'root',
       password: 'example',
